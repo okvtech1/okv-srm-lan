@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Get your activation code | OKV Technology Consults</title>
+<meta name="description" content="Send your payment receipt and get your activation code by email.">
+<link rel="stylesheet" href="css/site.css">
+<script src="js/config.js"></script>
+<script src="js/site.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html">School Result and Accounting Management System</a>
+    <nav class="menu" aria-label="Main"><a href="index.html">Home</a><a href="demo.html">Live demo</a><a href="index.html#pricing">Pricing</a><a href="activate.html">Get activation code</a><a href="index.html#contact">Contact</a><a href="legal.html">Legal</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div id="site-notice" class="notice" role="status"></div>
+
+  <div class="page-title">
+    <h1>Get your activation code</h1>
+    <p>Pay for the software by bank transfer, then send the details and your receipt here. Your activation code is emailed to you, usually within 24 hours.</p>
+  </div>
+  <section>
+    <div class="card">
+      <h3>How to get your code</h3>
+      <ol class="steps">
+        <li>Pay the amount below into the bank account shown.</li>
+        <li>Fill in the form and attach your payment receipt (a picture or PDF, up to 4 MB).</li>
+        <li>We email your activation code to the address you enter.</li>
+        <li>In the software, open <b>Admin &rarr; License</b>, type the code and press <b>Activate</b>.</li>
+      </ol>
+      <p style="margin-top:14px"><b>Amount:</b> &#8358;<span data-cfg="price">120,000</span></p>
+      <p class="note" style="white-space:pre-line" data-cfg="payment">Account details are shown after you request activation.</p>
+    </div>
+  </section>
+  <section>
+    <div class="card">
+      <h3>Send your payment details</h3>
+      <form class="form" data-form="activate" novalidate>
+        <label>School name *<input name="school" required></label>
+        <label>Your name *<input name="name" required></label>
+        <label>Email (the code is sent here) *<input name="email" type="email" required></label>
+        <label>Phone *<input name="phone" type="tel" required></label>
+        <label>Amount paid (naira) *<input name="amount" inputmode="numeric" required></label>
+        <label>Payment date *<input name="paid_on" placeholder="DD/MM/YYYY" required></label>
+        <label>Bank you paid from<input name="bank"></label>
+        <label>Transfer reference<input name="reference"></label>
+        <label class="full">Installation ID (shown on the License page of the software)<input name="iid"></label>
+        <label class="full">Payment receipt *<input type="file" name="receipt_file" accept="image/png,image/jpeg,image/gif,image/webp,application/pdf" required></label>
+        <label class="full">Notes<textarea name="notes"></textarea></label>
+        <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="actions"><button class="btn primary" type="submit">Send activation request</button></div>
+        <p class="msg full" aria-live="polite"></p>
+      </form>
+      <div class="done" style="display:none"><p class="msg ok">Thank you. Your request is in. Reference: <b class="ref"></b>. Your activation code will be emailed to you.</p><p><a class="btn" href="index.html">Back to the website</a></p></div>
+    </div>
+  </section>
+
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div>&copy; OKV Technology Consults &middot; <a href="index.html#contact">Contact</a></div>
+    <div style="margin-top:6px"><a href="legal.html#privacy">Privacy</a><a href="legal.html#terms">Terms</a><a href="legal.html#cookies">Cookies</a><a href="legal.html#refund">Refunds</a><a href="legal.html#eula">Licence agreement</a></div>
+  </div>
+</footer>
+</body>
+</html>
