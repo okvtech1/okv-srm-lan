@@ -6,6 +6,6 @@
       Example: 'okvtechnology/school-system'. The repository must be PUBLIC for downloads to work.
    ========================================================================== */
 window.OKV_CONFIG = {
-  API_URL: 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE',
+  API_URL: 'https://script.google.com/macros/s/AKfycbzVDuA4SkzNrNN71XoIITa_NkxXZkOTlLcxhmTG48ZnPOF5yPd2f1NYDZ18lEQPtEvU/exec',
   GITHUB_REPO: 'YOUR-GITHUB-USERNAME/YOUR-REPO'
 };
